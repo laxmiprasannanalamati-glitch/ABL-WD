@@ -3,29 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>College Information and Admissions</title>
+  <title>Bright Future College Admissions</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="container" id="top">
+  <header class="container college-heading" id="top">
     <h1>Bright Future College</h1>
-    <p class="tagline">Knowledge • Character • Success</p>
+    <p class="tagline">Knowledge | Character | Success</p>
     <nav>
       <a href="#about">About</a>
       <a href="#courses">Courses</a>
       <a href="#facilities">Facilities</a>
       <a href="#admissions">Admissions</a>
+      <a href="#web">Web Basics</a>
     </nav>
   </header>
   <main>
     <section id="about" class="container section">
       <h2>Welcome to Our College</h2>
-      <a href="#courses"><img class="campus" src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1000&q=80" alt="College campus building"></a>
-      <p>Bright Future College is a sample college website created for a Web Development ABL project. Our aim is to provide a welcoming place for students to learn, explore and develop their skills.</p>
+      <a href="#courses"><img class="campus-image" src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1000&q=80" alt="College building and campus"></a>
+      <p>Bright Future College is a sample educational website created for a Web Development project. A good college website gives visitors clear information and helps them move between sections easily.</p>
+      <p>Our page uses HTML5 semantic elements such as header, nav, main, section and footer.</p>
     </section>
     <section id="courses" class="container section">
       <h2>Courses Offered</h2>
-      <ul>
+      <ul class="course-list">
         <li>Computer Science and Engineering</li>
         <li>Artificial Intelligence and Machine Learning</li>
         <li>Electronics and Communication Engineering</li>
@@ -40,20 +42,31 @@
         <li>Sports and recreation</li>
         <li>Seminar and activity halls</li>
       </ol>
+      <p>Our information is arranged with headings, paragraphs and lists to make it easy to read.</p>
     </section>
     <section id="admissions" class="container section">
       <h2>Admission Process</h2>
       <ol>
         <li>Choose your preferred course.</li>
         <li>Check the eligibility requirements.</li>
-        <li>Visit the college admission office.</li>
-        <li>Submit the required application documents.</li>
+        <li>Contact the admission office.</li>
+        <li>Submit the required documents.</li>
       </ol>
+      <p><strong>Admission email:</strong> admissions@example.com</p>
+      <p><a href="#top">Return to top</a></p>
+    </section>
+    <section id="web" class="container section">
+      <h2>How the Web Works</h2>
+      <p>The internet connects computers and networks around the world. The web uses this infrastructure to share pages and information.</p>
+      <p>An IP address is a numerical address used to identify a device on a network. A browser requests a webpage from a web server using internet protocols.</p>
+      <p>HTML has developed through different versions. HTML5 introduced useful semantic elements and support for modern web content.</p>
+      <p>Example of a line break:<br>Bright Future College<br>Learning for a better tomorrow</p>
       <hr>
-      <p><strong>For information:</strong> admissions@example.com</p>
-      <p><a href="#top">Back to top</a></p>
+      <p>Learn more: <a href="https://www.w3.org/standards/webdesign/htmlcss" target="_blank" rel="noopener">HTML and CSS standards</a>.</p>
     </section>
   </main>
-  <footer class="container"><p>Bright Future College | Sample educational website</p></footer>
+  <footer class="container footer">
+    <p>Bright Future College<br>Sample Web Development ABL Project</p>
+  </footer>
 </body>
 </html>
