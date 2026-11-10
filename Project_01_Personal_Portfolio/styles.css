@@ -34,10 +34,6 @@ nav a {
   text-decoration: none;
   padding: 9px;
 }
-nav a:hover {
-  text-decoration: underline;
-  color: #ffe08a;
-}
 .panel {
   background-color: #ffffff;
   border: 2px solid #c5d7e6;
