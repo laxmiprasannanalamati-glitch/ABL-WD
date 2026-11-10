@@ -5,10 +5,10 @@
 This repository contains three responsive website case studies created using HTML5 and CSS3 only, following the supplied Units I–III syllabus.
 
 ## Student details
-- Name: [Enter your name]
-- Roll Number: [Enter roll number]
-- Branch: [Enter branch]
-- Section: [Enter section]
+- Name: NALAMATI LAKSHMI PRASANNA
+- Roll Number: 26001329
+- Branch: CSM
+- Section: 7
 
 ## Projects
 1. [Personal Portfolio Website](Project_01_Personal_Portfolio/index.html)
