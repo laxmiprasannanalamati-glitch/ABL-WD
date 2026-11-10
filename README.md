@@ -2,7 +2,7 @@
 
 **Subject:** Web Development — Dr. RVR NRI Institute of Technology
 
-This repository contains three responsive website case studies created with HTML5, CSS3 and basic JavaScript, following the supplied Units I–III syllabus.
+This repository contains three responsive website case studies created using HTML5 and CSS3 only, following the supplied Units I–III syllabus.
 
 ## Student details
 - Name: [Enter your name]
