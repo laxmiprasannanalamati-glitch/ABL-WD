@@ -1,11 +1,59 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Sample college information and admissions website"><title>Northstar University | Discover Your Future</title><link rel="stylesheet" href="styles.css"></head>
-<body><div class="top">✦ Admissions open for 2026–27 <span>Student Portal　 |　 Help Desk: +91 98765 43210</span></div><header><a class="brand" href="#home"><b>N</b> NORTHSTAR <small>UNIVERSITY</small></a><button class="menu" aria-label="Toggle navigation">☰</button><nav><a href="#about">About</a><a href="#academics">Academics</a><a href="#campus">Campus life</a><a href="#admissions">Admissions</a><a class="navbtn" href="#contact">Enquire now ↗</a></nav></header>
-<main><section class="hero" id="home"><div class="shade"></div><div class="hero-copy"><p class="gold">LEARN TODAY. LEAD TOMORROW.</p><h1>Find your place.<br><i>Shape your future.</i></h1><p>Discover a community where bold ideas grow, friendships last and possibilities have no limits.</p><a class="button" href="#admissions">Explore admissions ↗</a><a class="outline" href="#about">Discover Northstar</a></div></section>
-<section class="stats"><div><b>25+</b><small>Academic programs</small></div><div><b>40+</b><small>Student clubs</small></div><div><b>12:1</b><small>Student-faculty ratio</small></div><div><b>100%</b><small>Campus energy</small></div></section>
-<section class="intro wrap" id="about"><div><p class="eyebrow">01 / WHO WE ARE</p><h2>Education with<br><i>a bigger purpose.</i></h2><p>Northstar University is a sample institution created for this web development project. Our vision is to combine strong academic foundations with creativity, collaboration and real-world learning.</p><a href="#campus">Explore our campus ↗</a></div><img src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1000&q=85" alt="University building and green campus"></section>
-<section class="academics" id="academics"><div class="wrap"><p class="eyebrow">02 / ACADEMICS</p><h2>Explore our <i>schools.</i></h2><div class="cards"><article><b>01 / TECHNOLOGY</b><h3>Engineering & Technology</h3><p>Computer Science, AI & ML, Electronics and Mechanical Engineering.</p></article><article><b>02 / BUSINESS</b><h3>Business & Management</h3><p>Business Administration, Finance, Marketing and Entrepreneurship.</p></article><article><b>03 / SCIENCE</b><h3>Science & Humanities</h3><p>Mathematics, Physics, Psychology and Communication Studies.</p></article></div></div></section>
-<section class="campus wrap" id="campus"><img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1000&q=85" alt="Students walking across a college campus"><div><p class="eyebrow">03 / CAMPUS LIFE</p><h2>Make memories.<br><i>Make an impact.</i></h2><p>Join student clubs, take part in cultural festivals, explore sports and collaborate on projects. Your university journey is shaped by everything you experience.</p><ul><li>Modern learning spaces</li><li>Clubs, events and competitions</li><li>Library, sports and student support</li></ul></div></section>
-<section class="admissions" id="admissions"><div class="wrap admission-grid"><div><p class="gold">04 / ADMISSIONS</p><h2>Ready to take<br><i>the first step?</i></h2><p>Explore the admission journey and send an enquiry. This is a demonstration interface, not a live application portal.</p><a class="button" href="#contact">Start an enquiry ↗</a></div><div class="steps"><p><b>01</b><span><strong>Explore programs</strong><small>Choose a course that matches your interests.</small></span></p><p><b>02</b><span><strong>Check eligibility</strong><small>Review the requirements for your program.</small></span></p><p><b>03</b><span><strong>Submit an enquiry</strong><small>Share your details so our team can guide you.</small></span></p></div></div></section>
-<section class="contact wrap" id="contact"><div><p class="eyebrow">05 / GET IN TOUCH</p><h2>Let’s start<br><i>a conversation.</i></h2><p>✉ admissions@northstar.example<br>⌖ University Road, Andhra Pradesh, India</p></div><form id="enquiry"><label for="student">Full name</label><input id="student" required placeholder="Your name"><label for="email">Email address</label><input id="email" type="email" required placeholder="you@example.com"><label for="course">Interested program</label><select id="course" required><option value="">Choose a program</option><option>Computer Science & Engineering</option><option>Artificial Intelligence & Machine Learning</option><option>Business Administration</option></select><button class="button">Send enquiry ↗</button><p id="feedback" aria-live="polite"></p></form></section></main>
-<footer><a class="brand" href="#home"><b>N</b> NORTHSTAR</a><p>Sample college website · Web Development ABL</p><a href="#home">Back to top ↑</a></footer><script src="script.js"></script></body></html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Information and Admissions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="container" id="top">
+    <h1>Bright Future College</h1>
+    <p class="tagline">Knowledge • Character • Success</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#courses">Courses</a>
+      <a href="#facilities">Facilities</a>
+      <a href="#admissions">Admissions</a>
+    </nav>
+  </header>
+  <main>
+    <section id="about" class="container section">
+      <h2>Welcome to Our College</h2>
+      <a href="#courses"><img class="campus" src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1000&q=80" alt="College campus building"></a>
+      <p>Bright Future College is a sample college website created for a Web Development ABL project. Our aim is to provide a welcoming place for students to learn, explore and develop their skills.</p>
+    </section>
+    <section id="courses" class="container section">
+      <h2>Courses Offered</h2>
+      <ul>
+        <li>Computer Science and Engineering</li>
+        <li>Artificial Intelligence and Machine Learning</li>
+        <li>Electronics and Communication Engineering</li>
+        <li>Mechanical Engineering</li>
+      </ul>
+    </section>
+    <section id="facilities" class="container section">
+      <h2>College Facilities</h2>
+      <ol>
+        <li>Library and reading room</li>
+        <li>Computer laboratories</li>
+        <li>Sports and recreation</li>
+        <li>Seminar and activity halls</li>
+      </ol>
+    </section>
+    <section id="admissions" class="container section">
+      <h2>Admission Process</h2>
+      <ol>
+        <li>Choose your preferred course.</li>
+        <li>Check the eligibility requirements.</li>
+        <li>Visit the college admission office.</li>
+        <li>Submit the required application documents.</li>
+      </ol>
+      <hr>
+      <p><strong>For information:</strong> admissions@example.com</p>
+      <p><a href="#top">Back to top</a></p>
+    </section>
+  </main>
+  <footer class="container"><p>Bright Future College | Sample educational website</p></footer>
+</body>
+</html>
