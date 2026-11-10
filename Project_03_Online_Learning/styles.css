@@ -36,10 +36,6 @@ nav a {
   padding: 9px;
   text-decoration: none;
 }
-nav a:hover {
-  color: #7857bd;
-  text-decoration: underline;
-}
 .card {
   background-color: #ffffff;
   border: 2px solid #d3cbed;
