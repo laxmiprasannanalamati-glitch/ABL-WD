@@ -1,10 +1,59 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Sample online learning platform"><title>SkillSpring | Learn Something New</title><link rel="stylesheet" href="styles.css"></head>
-<body><header><a class="brand" href="#home"><b>✳</b> SkillSpring</a><button class="menu" aria-label="Toggle navigation">☰</button><nav><a href="#courses">Explore courses</a><a href="#how">How it works</a><a href="#progress">My progress</a><a href="#join" class="signup">Join for free ↗</a></nav></header>
-<main><section class="hero wrap" id="home"><div><p class="pill">✦ YOUR NEXT SKILL STARTS HERE</p><h1>Make learning<br><i>your superpower.</i></h1><p class="lead">Practical courses, inspiring teachers and a community that helps you grow — one lesson at a time.</p><a class="btn" href="#courses">Explore courses ↗</a><a class="watch" href="#how">▶ How it works</a><p class="proof"><b>12,000+</b> curious learners growing</p></div><div class="hero-art"><img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=85" alt="Student learning with laptop and notebook"><span class="note n1">✦ Learn at your pace</span><span class="note n2"><b>4.9/5</b><br>★★★★★ learner rating</span></div></section>
-<section class="trust"><div class="wrap"><span>LEARN SKILLS THAT MOVE YOU FORWARD</span><b>DESIGN</b><b>CODE</b><b>CREATE</b><b>GROW</b></div></section>
-<section class="wrap courses" id="courses"><p class="eyebrow">01 / EXPLORE AND GROW</p><div class="heading"><h2>Find your next <i>favourite course.</i></h2><a href="#join">View all courses ↗</a></div><div class="filters"><button class="active" data-filter="all">All courses</button><button data-filter="design">Design</button><button data-filter="development">Development</button><button data-filter="business">Business</button></div><div class="course-grid"><article class="course" data-category="design"><div class="cover design"><span>DESIGN</span><b>✳</b></div><small>DESIGN · 6 LESSONS　 ★ 4.9</small><h3>Design Thinking: From Idea to Impact</h3><p>Turn everyday problems into creative solutions.</p><div class="teacher"><b>AM</b><span>Alex Morgan<small>Product Designer</small></span><strong>Free</strong></div></article><article class="course" data-category="development"><div class="cover code"><span>DEVELOPMENT</span><b>&lt;/&gt;</b></div><small>CODE · 10 LESSONS　 ★ 4.8</small><h3>HTML & CSS: Build Your First Website</h3><p>Build beautiful web pages from the ground up.</p><div class="teacher"><b>RK</b><span>Riya Kumar<small>Frontend Developer</small></span><strong>Free</strong></div></article><article class="course" data-category="business"><div class="cover business"><span>BUSINESS</span><b>↗</b></div><small>BUSINESS · 8 LESSONS　 ★ 5.0</small><h3>Creative Entrepreneurship Basics</h3><p>Understand ideas, audiences and simple plans.</p><div class="teacher"><b>JS</b><span>Jordan Smith<small>Founder & Mentor</small></span><strong>Free</strong></div></article></div></section>
-<section class="how" id="how"><div class="wrap"><p class="eyebrow">02 / SIMPLE BY DESIGN</p><h2>Three steps. <i>Big progress.</i></h2><div class="steps"><article><b>01</b><div>⌕</div><h3>Choose a course</h3><p>Find a topic that excites you and fits your goals.</p></article><article><b>02</b><div>▶</div><h3>Learn your way</h3><p>Follow short lessons and practise at your own pace.</p></article><article><b>03</b><div>✦</div><h3>Celebrate progress</h3><p>Track your learning and put new skills into action.</p></article></div></div></section>
-<section class="wrap progress" id="progress"><div><p class="eyebrow">03 / YOUR LEARNING SPACE</p><h2>Small lessons.<br><i>Real momentum.</i></h2><p>Keep your learning organised with a simple progress overview. This sample dashboard demonstrates how course progress can be presented.</p></div><div class="dashboard"><small>MY LEARNING　 <span>● ACTIVE</span></small><h3>Good morning, learner! 👋</h3><p>Here’s your weekly learning snapshot.</p><div class="item"><b>HTML & CSS Essentials</b><span>75%</span><div><i style="width:75%"></i></div></div><div class="item"><b>Creative Design Basics</b><span>40%</span><div><i style="width:40%"></i></div></div><div class="item"><b>Business Foundations</b><span>20%</span><div><i style="width:20%"></i></div></div><div class="weekly"><b>4.5 hrs<small>Learning time</small></b><b>8 lessons<small>Completed</small></b><b>3 days<small>Current streak</small></b></div></div></section>
-<section class="join" id="join"><div class="wrap join-grid"><div><p class="eyebrow">04 / READY WHEN YOU ARE</p><h2>Make room for<br><i>what’s next.</i></h2><p>Join the learning community and take your first step today.</p></div><form id="join-form"><label for="join-email">Your email address</label><div><input id="join-email" type="email" required placeholder="you@example.com"><button>Join free ↗</button></div><p id="feedback" aria-live="polite"></p><small>Demo sign-up form. No account is created.</small></form></div></section></main>
-<footer><a class="brand" href="#home"><b>✳</b> SkillSpring</a><p>Learn at your pace. Grow at your own speed.</p><a href="#home">Back to top ↑</a></footer><script src="script.js"></script></body></html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Learning Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="container" id="home">
+    <h1>Learn Online Hub</h1>
+    <p class="tagline">Learn at your own pace, grow every day</p>
+    <nav>
+      <a href="#welcome">Home</a>
+      <a href="#courses">Courses</a>
+      <a href="#benefits">Benefits</a>
+      <a href="#steps">How to Learn</a>
+    </nav>
+  </header>
+  <main>
+    <section id="welcome" class="container card">
+      <h2>Welcome to Online Learning</h2>
+      <a href="#courses"><img class="learning" src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=80" alt="Learner studying with a laptop"></a>
+      <p>Online learning helps students study from different places and at a convenient time. This sample website introduces a few beginner-friendly learning subjects.</p>
+    </section>
+    <section id="courses" class="container card">
+      <h2>Popular Courses</h2>
+      <ul>
+        <li><strong>HTML Fundamentals</strong> — Learn webpage structure and elements.</li>
+        <li><strong>CSS Basics</strong> — Learn colors, fonts, borders and spacing.</li>
+        <li><strong>Computer Basics</strong> — Understand essential computer concepts.</li>
+        <li><strong>Design Principles</strong> — Learn layout, color and typography basics.</li>
+      </ul>
+    </section>
+    <section id="benefits" class="container card">
+      <h2>Benefits of Online Learning</h2>
+      <ol>
+        <li>Study from home or another convenient place.</li>
+        <li>Learn at a comfortable pace.</li>
+        <li>Review learning material when needed.</li>
+        <li>Explore different subjects and skills.</li>
+      </ol>
+    </section>
+    <section id="steps" class="container card">
+      <h2>How to Start Learning</h2>
+      <ol>
+        <li>Select a course from the list above.</li>
+        <li>Read the course topics carefully.</li>
+        <li>Practise the concepts regularly.</li>
+        <li>Review what you have learned.</li>
+      </ol>
+      <hr>
+      <p><a href="https://www.wikipedia.org" target="_blank" rel="noopener">Explore an educational reference website</a>.</p>
+      <p><a href="#home">Back to top</a></p>
+    </section>
+  </main>
+  <footer class="container"><p>Learn Online Hub | Web Development ABL</p></footer>
+</body>
+</html>
