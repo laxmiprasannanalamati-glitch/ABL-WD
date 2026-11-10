@@ -1,11 +1,13 @@
 # Project 03 — Online Learning Platform Interface
 
-A responsive e-learning interface with course categories, course cards, instructor details, learning steps, progress indicators and a sample sign-up form.
+A responsive e-learning interface presenting course categories, course information, learning benefits and sign-up information.
 
 ## Files
-- `index.html` — course cards, categories, instructors and progress display
-- `styles.css` — responsive layouts, typography, cards and progress bars
-- `script.js` — mobile navigation, course filters and demo sign-up feedback
+- `index.html` — page structure, course sections, headings, lists, images and hyperlinks
+- `styles.css` — responsive layouts, typography, colors, backgrounds, borders and spacing
+
+## Technologies
+HTML5 and CSS3 only. This project does not use JavaScript.
 
 ## Run
-Open `index.html` in a browser. Course filters work locally. The sign-up form is a demonstration and does not create an account.
+Open `index.html` in a web browser.
