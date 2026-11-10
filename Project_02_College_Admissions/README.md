@@ -1,11 +1,13 @@
 # Project 02 — College Information and Admissions Website
 
-A responsive sample university website with an introduction, academic programs, campus life, admission steps and enquiry form. Northstar University is fictional content created for this assignment.
+A responsive sample university website with an introduction, academic programs, campus information, admission steps and enquiry information.
 
 ## Files
-- `index.html` — semantic page sections, navigation, images and form
-- `styles.css` — typography, colors, backgrounds, box model and responsive layouts
-- `script.js` — mobile navigation and demo form feedback
+- `index.html` — page structure, semantic sections, navigation, images, lists and hyperlinks
+- `styles.css` — typography, colors, backgrounds, borders, spacing and page layout
+
+## Technologies
+HTML5 and CSS3 only. This project does not use JavaScript.
 
 ## Run
-Open `index.html` in a browser. The enquiry form is a front-end demonstration and does not submit information to a server.
+Open `index.html` in a web browser.
