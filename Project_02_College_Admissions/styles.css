@@ -34,10 +34,6 @@ nav a {
   padding: 9px;
   text-decoration: none;
 }
-nav a:hover {
-  color: #ffffff;
-  text-decoration: underline;
-}
 .section {
   background-color: #ffffff;
   border: 2px solid #ded5c2;
